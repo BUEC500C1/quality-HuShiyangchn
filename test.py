@@ -1,4 +1,6 @@
 import Arabic2Roman as a2r
+import pytest
+
 def test():
 	assert a2r.Arabic2Roman(2)=="II"
 	assert a2r.Arabic2Roman(4)=="IV"
